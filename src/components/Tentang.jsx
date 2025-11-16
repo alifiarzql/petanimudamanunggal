@@ -5,7 +5,8 @@ const Tentang = () => {
   return (
     <section id="tentang" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Gambar / Card Hijau */}
+
+        {/* Gambar */}
         <div>
           <img
             src={tentang}
@@ -14,13 +15,13 @@ const Tentang = () => {
           />
         </div>
 
-        {/* Konten Teks */}
+        {/* Konten */}
         <div>
-          <p className="text-green-700 font-semibold tracking-wider mb-2">
+          <p className="text-[#547047] font-semibold tracking-wider mb-2">
             TENTANG KAMI
           </p>
 
-          <h2 className="text-3xl sm:text-4xl font-bold text-green-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#547047] mb-4">
             Siapa Manunggal Roso?
           </h2>
 
@@ -38,10 +39,13 @@ const Tentang = () => {
             sekaligus menjaga kelestarian alam dan meningkatkan kesejahteraan
             bersama.
           </p>
+                    <span className="inline-block bg-green-100 text-[#547047] px-4 py-1 rounded-full text-sm mb-6 shadow-sm">
+            Didukung oleh PPK Ormawa HIMATIKRO
+          </span>
 
           <a
             href="#kontak"
-            className="text-green-700 text-lg font-semibold hover:underline flex items-center gap-1"
+            className="text-[#547047] text-lg font-semibold hover:underline flex items-center gap-1"
           >
             Kenali kami lebih jauh →
           </a>

@@ -9,8 +9,7 @@ const Kontak = () => {
       </h2>
 
       <p className="mt-4 max-w-2xl mx-auto text-gray-200 text-lg leading-relaxed">
-        Jangan ragu untuk menghubungi kami. Kami siap melayani kebutuhan Anda,
-        baik untuk konsumsi pribadi, restoran, maupun kemitraan bisnis.
+        Jangan ragu untuk menghubungi kami. Kami siap melayani kebutuhan Anda.
       </p>
 
       <a
